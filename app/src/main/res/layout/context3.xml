@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending Near You"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+           android:paddingBottom="4dp">
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/onion"
+            android:layout_weight="3.3"
+            android:layout_gravity="center"
+            android:background="@drawable/et2"
+            android:elevation="4dp">
+        </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Onion(Vengayam)"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1 Kg"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fcdb6a"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get for "
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹120"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    >
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="17dp"
+                        android:gravity="center"
+                        android:src="@drawable/downicon">
+
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ₹150"
+                android:padding="2dp"
+                android:layout_gravity="center">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:background="@drawable/rect"
+                    android:elevation="1dp"
+                    android:padding="4dp"
+                    android:textColor="#ff00a2"
+                    android:layout_marginRight="10dp"
+
+                    >
+                </EditText>
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/sfoil"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:background="@drawable/et2"
+                android:elevation="4dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Onion(Vengayam)"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1 Kg"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fcdb6a"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get for "
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹120"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    >
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="17dp"
+                        android:gravity="center"
+                        android:src="@drawable/downicon">
+
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ₹150"
+                    android:padding="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add"
+                        android:background="@drawable/rect"
+                        android:elevation="1dp"
+                        android:padding="4dp"
+                        android:textColor="#ff00a2"
+                        android:layout_marginRight="10dp"
+
+                        >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="188dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:backgroundTint="#fb3870"
+            android:gravity="center_vertical"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_gravity="center_horizontal">
+
+            </TextView>
+           <ImageView
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:background="@drawable/rightarrow"
+               android:layout_gravity="center">
+           </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:weightSum="10"
+android:layout_gravity="center"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+    android:elevation="4dp"
+    android:layout_weight="3.3"
+    android:paddingBottom="4dp">
+    <ImageView
+
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/vegfruits"
+        android:layout_weight="3.3"
+        android:layout_gravity="center"
+        android:elevation="4dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Fruits &"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Vegetables"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        >
+
+    </TextView>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:elevation="4dp"
+    android:layout_weight="3.3"
+    android:paddingBottom="4dp">
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/dairybread"
+        android:layout_weight="3.3"
+        android:layout_gravity="center"
+        android:elevation="4dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Dairy,Bread"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" & Eggs"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        >
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:elevation="4dp"
+    android:layout_weight="3.3"
+    android:paddingBottom="4dp">
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/attaoil"
+        android:layout_weight="3.3"
+        android:layout_gravity="center"
+        android:elevation="4dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Atta,Rice,"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oil & Dals"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        >
+
+    </TextView>
+
+</LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            android:elevation="4dp"
+            android:layout_weight="2.5"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/meatfish"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Meats,Fish"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" & Eggs"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/drymasala"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Masala &"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Dry Fruits"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/breakfastsauce"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Breakfast &"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sauces"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/packed"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Packaged"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Food"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/homei"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Zepto"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/category"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Categories"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/cart"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cart"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</linearlayout>
+    </LinearLayout>
+    </LinearLayout>
+
+

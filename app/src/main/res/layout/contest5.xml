@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d3dfe1"
+            android:id="@+id/r1">
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/profile">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery in "
+                android:textSize="25sp"
+                android:layout_toEndOf="@id/i1"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 Mins"
+                android:textStyle="bold"
+                android:layout_toEndOf="@id/t1"
+                android:textColor="#b41595"
+                android:textSize="25sp">
+            </TextView>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambaram- East Tambaram..."
+                android:layout_below="@id/t1"
+                android:layout_toEndOf="@id/i1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/downicon"
+                android:layout_toEndOf="@id/t3"
+                android:layout_below="@id/t2">
+            </ImageView>
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et2"
+                android:layout_below="@id/i1"
+                android:layout_margin="10dp"
+                android:elevation="4dp">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="22dp"
+                    android:id="@+id/i3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/searchicon">
+                </ImageView>
+
+                <EditText
+                    android:id="@+id/t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Search for items"
+                    android:layout_toRightOf="@id/i3"
+                    android:background="@drawable/et2"
+                    android:layout_below="@id/t3"
+                    android:textColorHint="#443330"
+                    android:textSize="15sp">
+
+                </EditText>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r1"
+            android:gravity="center">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Trending Near You"
+                                android:textSize="20sp"
+                                android:layout_marginTop="15dp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="10"
+                            android:layout_gravity="center"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/onion"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Onion(Vengayam)"
+                                    android:textColor="@color/black"
+                                    android:textSize="12sp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 1 Kg"
+                                    android:textColor="@color/black"
+                                    android:textSize="12sp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:background="#fcdb6a"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Get for "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="₹60"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        >
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="17dp"
+                                            android:gravity="center"
+                                            android:src="@drawable/downicon">
+
+                                        </ImageView>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹65"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginEnd="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="80dp"
+                                    android:layout_height="79dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/sfoil"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Gold Winner Refi.."
+                                    android:textColor="@color/black"
+                                    android:textSize="12sp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 1l"
+                                    android:textColor="@color/black"
+                                    android:textSize="12sp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="      "
+                                        android:textColor="@color/black">
+                                    </TextView>
+
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹111"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginEnd="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="80dp"
+                                    android:layout_height="65dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/Arokyamilk"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Arokya Full cream"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Fresh Milk(pouch)"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 1 l"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="      "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="      "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹150"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginRight="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="10"
+                            android:layout_gravity="center"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="70dp"
+                                    android:layout_height="60dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ensurenutri"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Ensure Balanaced"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Nutrition Drink P..."
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 375 g"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:background="#fcdb6a"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Get for "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="₹724"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        >
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="17dp"
+                                            android:gravity="center"
+                                            android:src="@drawable/downicon">
+
+                                        </ImageView>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹765"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginRight="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="70dp"
+                                    android:layout_height="60dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/nestlelacto"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Nestle LACTOGEN"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Pro 3,Follow-up F..."
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 400 g"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:background="#fcdb6a"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Get for "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="₹420"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        >
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="17dp"
+                                            android:gravity="center"
+                                            android:src="@drawable/downicon">
+
+                                        </ImageView>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹470"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginRight="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/treatwafer"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Britannia Treat"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Creme Wafers Str..."
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 55 g"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="      "
+                                        android:textColor="@color/black">
+                                    </TextView>
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹150"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginRight="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="10"
+                            android:layout_gravity="center"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/kisanJam"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Kisan Mixed- Fruit"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Jam"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 200 g"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:background="#fcdb6a"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Get for "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="₹77"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        >
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="17dp"
+                                            android:gravity="center"
+                                            android:src="@drawable/downicon">
+
+                                        </ImageView>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹80"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginRight="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:paddingBottom="4dp">
+                                <ImageView
+
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/wheatflour"
+                                    android:layout_weight="3.3"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/et2"
+                                    android:elevation="4dp">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Aashirvaad Atta -"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Superior MP Who..."
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 1 Kg"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    >
+
+                                </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:background="#fcdb6a"
+                                    android:layout_margin="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Get for "
+                                        android:textColor="@color/black">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="₹68"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        >
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="17dp"
+                                            android:gravity="center"
+                                            android:src="@drawable/downicon">
+
+                                        </ImageView>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" ₹70"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:padding="2dp"
+                                        android:layout_gravity="center">
+                                    </TextView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end">
+
+                                        <EditText
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:text=" Add "
+                                            android:background="@drawable/rect"
+                                            android:elevation="1dp"
+                                            android:padding="4dp"
+                                            android:textColor="#ff00a2"
+                                            android:layout_marginRight="10dp"
+
+                                            >
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="105dp"
+                                android:layout_height="206dp"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/et"
+                                android:elevation="4dp"
+                                android:layout_weight="3.3"
+                                android:backgroundTint="#fb3870"
+                                android:gravity="center_vertical"
+
+                                >
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="See All"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    android:textSize="22dp"
+                                    android:layout_gravity="center_horizontal">
+
+                                </TextView>
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:background="@drawable/rightarrow"
+                                    android:layout_gravity="center">
+                                </ImageView>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Grocery and Kitchen"
+                            android:textSize="18dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold">
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="150dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/vegfruits"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Fruits "
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Vegetables"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/dairybread"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Dairy,Bread"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Eggs"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/attaoil"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Atta,Rice,"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Oil and Dals"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_gravity="center"
+                                >
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+
+                            android:elevation="4dp"
+                            android:layout_weight="2.5"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/meatfish"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Meats,Fish"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="  ,Eggs"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/drymasala"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Masala, "
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Dry Fruits"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/breakfastsauce"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Breakfast, "
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Sauces"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/packed"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Packaged"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Food"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_gravity="center"
+                                >
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Snacks and Drinks"
+                            android:textSize="18dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold">
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+
+                            android:elevation="4dp"
+                            android:layout_weight="5"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="130dp"
+                                android:layout_height="80dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/teacoffee"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Tea,Coffee"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" and  More"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="5"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="130dp"
+                                android:layout_height="80dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/frozenfood"
+                                android:layout_weight="5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Frozen "
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Food"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+
+                            android:elevation="4dp"
+                            android:layout_weight="2.5"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/sweetcrav"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Sweet"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Cravings"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/colddrinks"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Cold Drinks,"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="  Juices"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/chips"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Munchies,"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="  Chips"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/biscuits"
+                                android:layout_weight="2.5"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Biscuits,"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="  Cookies"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_gravity="center"
+                                >
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:background="@color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/homei"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Zepto"
+                                android:layout_gravity="center"
+                                android:textColor="@color/purple_700"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/category"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Categories"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="10dp"
+
+                            android:elevation="4dp"
+                            android:layout_weight="3.3"
+                            android:paddingBottom="4dp">
+                            <ImageView
+
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/cart"
+                                android:layout_weight="3.3"
+                                android:layout_gravity="center"
+                                android:elevation="4dp">
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Cart"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                >
+
+                            </TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        >
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_alignParentEnd="true"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/homei"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Zepto"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/category"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Categories"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            android:elevation="4dp"
+            android:layout_weight="3.3"
+            android:paddingBottom="4dp">
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/cart"
+                android:layout_weight="3.3"
+                android:layout_gravity="center"
+                android:elevation="4dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cart"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
